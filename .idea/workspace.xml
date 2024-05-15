@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3542e61b-9555-4b6f-ae73-3130cd80f14d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/gatling1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gatling2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gatling3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/order-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/order-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/product-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/product-server.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +100,9 @@
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-api-gateway" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\img" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-api-gateway" />
-      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\img" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-config-server\src\main\java\com\example\webpos\config" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-product-server\src\main\resources" />
     </key>
@@ -114,7 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+  <component name="RunManager" selected="Spring Boot.WebposProductServerApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JDDB" />
@@ -277,7 +284,7 @@
       <workItem from="1715739642570" duration="342000" />
       <workItem from="1715740055595" duration="537000" />
       <workItem from="1715740768991" duration="7569000" />
-      <workItem from="1715749223439" duration="9228000" />
+      <workItem from="1715749223439" duration="14353000" />
     </task>
     <servers />
   </component>

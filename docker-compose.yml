@@ -14,6 +14,9 @@ services:
       - "8888:8888"
     environment:
       SPRING_PROFILES_ACTIVE: docker
+    volumes:
+      - ./webpos-config-server/src/main/resources/config:/app/config
+    working_dir: /app
 
   webpos-discovery-server:
     build:
