@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.example</groupId>
+    <artifactId>webpos</artifactId>
+    <version>3.2.4</version>
+    <name>${project.artifactId}</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>webpos-api-gateway</module>
+        <module>webpos-config-server</module>
+        <module>webpos-discovery-server</module>
+        <module>webpos-product-server</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+
+        <spring-cloud.version>2023.0.1</spring-cloud.version>
+        <chaos-monkey-spring-boot.version>2.3.10</chaos-monkey-spring-boot.version>
+        <jolokia-core.version>1.7.1</jolokia-core.version>
+
+        <!-- Workaround for resolving the issue while using the provided lombok dependency in upgraded Java version.
+        Should be removed while future upgrading-->
+        <lombok.version>1.18.30</lombok.version>
+
+        <docker.image.prefix>webpos</docker.image.prefix>
+        <docker.image.exposed.port>9090</docker.image.exposed.port>
+        <docker.image.dockerfile.dir>${basedir}</docker.image.dockerfile.dir>
+        <!-- podman is also supported -->
+        <container.executable>docker</container.executable>
+        <!-- By default, the OCI image is build for the linux/amd64 platform -->
+        <!-- For Apple Silicon M2 Chip you have to change it to the linux/arm64 -->
+        <container.platform>linux/amd64</container.platform>
+        <!-- The -load option is a shortcut for or -output=type=docker -->
+        <!-- Could be changed by the -push option !-->
+        <container.build.extraarg>--load</container.build.extraarg>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>chaos-monkey-spring-boot</artifactId>
+                <version>${chaos-monkey-spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jolokia</groupId>
+                <artifactId>jolokia-core</artifactId>
+                <version>${jolokia-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+
+
+    </build>
+
+</project>

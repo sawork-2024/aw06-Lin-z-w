@@ -10,3 +10,10 @@
 5. 如有兴趣可在kubernetes或者minikube上进行部署。
 
 请编写readme对自己的系统和实验进行详细介绍。
+
+# Todo
+- [ ] config server
+- [ ] eureka server
+- [ ] gateway server
+- [ ] 压力测试实验
+- [ ] Client-side LB实验

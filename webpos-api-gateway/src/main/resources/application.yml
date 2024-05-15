@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: api-gateway
+  config:
+    import: configserver:${CONFIG_SERVER_URL:http://localhost:8888/}
+  cloud:
+    gateway:
+      routes:
+        - id: product-service
+          uri: lb://product-server
+          predicates:
+            - Path=/product/**
+
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+    import: configserver:http://config-server:8888

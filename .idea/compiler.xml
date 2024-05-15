@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webpos-api-gateway" />
+        <module name="webpos-config-server" />
+        <module name="webpos-discovery-server" />
+        <module name="webpos-product-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery-server" target="17" />
+      <module name="product-server" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discovery-server" options="-parameters" />
+      <module name="product-server" options="-parameters" />
+      <module name="webpos" options="" />
+      <module name="webpos-api-gateway" options="-parameters" />
+      <module name="webpos-config-server" options="-parameters" />
+      <module name="webpos-discovery-server" options="-parameters" />
+      <module name="webpos-product-server" options="-parameters" />
+    </option>
+  </component>
+</project>
