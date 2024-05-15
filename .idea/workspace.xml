@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3542e61b-9555-4b6f-ae73-3130cd80f14d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-api-gateway/api-gateway.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-api-gateway/api-gateway.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-config-server/config-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/config-server.Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-discovery-server/discovery-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-discovery-server/discovery-server.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-order-server/order-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/order-server.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/product-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/product-server.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "D:/Workspace/Java/awhw/spring-petclinic-microservices",
+    "last_opened_file_path": "D:/Workspace/Java/awhw/aw06-Lin-z-w/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\config" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-discovery-server" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-config-server" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-api-gateway" />
-      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-order-server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w" />
@@ -121,7 +114,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.webpos-api-gateway/api-gateway.Dockerfile">
+  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JDDB" />
@@ -284,7 +277,7 @@
       <workItem from="1715739642570" duration="342000" />
       <workItem from="1715740055595" duration="537000" />
       <workItem from="1715740768991" duration="7569000" />
-      <workItem from="1715749223439" duration="8546000" />
+      <workItem from="1715749223439" duration="9228000" />
     </task>
     <servers />
   </component>

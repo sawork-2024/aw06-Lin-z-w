@@ -2,11 +2,8 @@ server.port: 8888
 spring:
   application:
     name: config-server
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        bootstrap: false
-        native:
-          search-locations: classpath:/config
+        git:
+          uri: https://github.com/sawork-2024/aw06-Lin-z-w.git
