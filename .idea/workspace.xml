@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3542e61b-9555-4b6f-ae73-3130cd80f14d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/circuitbreaker/Breaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/client/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/client/ProductClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/Repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/WebposOrderServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/WebposOrderServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/rest/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/rest/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/resources/api.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/resources/api.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "D:/Workspace/Java/awhw/aw06-Lin-z-w/config",
+    "last_opened_file_path": "D:/Workspace/Java/awhw/spring-petclinic-microservices",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -281,7 +282,7 @@
       <workItem from="1715739642570" duration="342000" />
       <workItem from="1715740055595" duration="537000" />
       <workItem from="1715740768991" duration="7569000" />
-      <workItem from="1715749223439" duration="15604000" />
+      <workItem from="1715749223439" duration="19136000" />
     </task>
     <servers />
   </component>

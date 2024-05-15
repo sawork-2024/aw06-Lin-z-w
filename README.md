@@ -47,3 +47,7 @@ docker compose up
 在网关处配置Client-side LB策略，将请求转发到相应的微服务。根据log后添加的timestamp，可以看到请求被均匀的分配到各个微服务中。
 ![img.png](img/lb1.png)
 ![img.png](img/lb2.png)
+
+### 断路器
+
+在Order Server调用Product Server时，使用断路器防止了Product Server失效时的服务不可用。

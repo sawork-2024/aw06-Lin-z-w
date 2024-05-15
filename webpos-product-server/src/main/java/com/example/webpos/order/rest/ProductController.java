@@ -40,7 +40,7 @@ public class ProductController implements ProductApi {
 
     @Override
     public ResponseEntity<List<ProductDto>> listProducts() {
-        System.out.println("ProductController.listProducts() called" + System.currentTimeMillis());
+        System.out.println("ProductController.listProducts() called " + System.currentTimeMillis());
         List<ProductDto> productDtos = productService.getAllProducts().stream()
                 .map(ProductMapper::mapToDto)
                 .collect(Collectors.toList());
@@ -62,6 +62,8 @@ public class ProductController implements ProductApi {
         productService.updateProductQuantity(productId, updateProductQuantityRequestDto.getQuantity());
         return ResponseEntity.ok().build();
     }
+
+
 
     //    @RequestMapping(value = "/product/clearCache", method = RequestMethod.GET)
 //    public void clearCache() {
