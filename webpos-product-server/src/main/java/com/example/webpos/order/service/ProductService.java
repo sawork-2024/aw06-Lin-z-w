@@ -1,7 +1,7 @@
-package com.example.webpos.product.service;
+package com.example.webpos.order.service;
 
-import com.example.webpos.product.Repository.ProductRepository;
-import com.example.webpos.product.model.Product;
+import com.example.webpos.order.Repository.ProductRepository;
+import com.example.webpos.order.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

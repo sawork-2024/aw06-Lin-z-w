@@ -11,6 +11,7 @@
         <module name="webpos-config-server" />
         <module name="webpos-discovery-server" />
         <module name="webpos-product-server" />
+        <module name="webpos-order-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="webpos-api-gateway" options="-parameters" />
       <module name="webpos-config-server" options="-parameters" />
       <module name="webpos-discovery-server" options="-parameters" />
+      <module name="webpos-order-server" options="-parameters" />
       <module name="webpos-product-server" options="-parameters" />
     </option>
   </component>

@@ -1,4 +1,4 @@
-package com.example.webpos.product.model;
+package com.example.webpos.order.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

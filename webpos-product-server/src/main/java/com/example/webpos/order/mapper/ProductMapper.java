@@ -1,7 +1,7 @@
-package com.example.webpos.product.mapper;
+package com.example.webpos.order.mapper;
 
-import com.example.webpos.product.model.Product;
-import com.example.webpos.product.rest.dto.ProductDto;
+import com.example.webpos.order.model.Product;
+import com.example.webpos.order.rest.dto.ProductDto;
 
 
 public class ProductMapper {

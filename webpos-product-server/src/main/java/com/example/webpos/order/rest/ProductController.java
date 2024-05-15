@@ -1,24 +1,21 @@
-package com.example.webpos.product.rest;
+package com.example.webpos.order.rest;
 
-import com.example.webpos.product.mapper.CategoryMapper;
-import com.example.webpos.product.mapper.ProductMapper;
-import com.example.webpos.product.model.Product;
-import com.example.webpos.product.rest.api.ProductApi;
-import com.example.webpos.product.rest.dto.CategoryDto;
-import com.example.webpos.product.rest.dto.ProductDto;
-import com.example.webpos.product.service.ProductService;
+import com.example.webpos.order.mapper.CategoryMapper;
+import com.example.webpos.order.mapper.ProductMapper;
+import com.example.webpos.order.model.Product;
+import com.example.webpos.order.rest.api.ProductApi;
+import com.example.webpos.order.rest.dto.CategoryDto;
+import com.example.webpos.order.rest.dto.ProductDto;
+import com.example.webpos.order.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.CacheManager;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.example.webpos.product.mapper.ProductMapper.mapToDto;
+import static com.example.webpos.order.mapper.ProductMapper.mapToDto;
 
 @RestController
 public class ProductController implements ProductApi {
@@ -30,7 +27,7 @@ public class ProductController implements ProductApi {
 
     @Override
     public ResponseEntity<ProductDto> showProductById(@PathVariable String productId) {
-        System.out.println("ProductController.showProductById() called with productId: " + productId);
+        System.out.println("ProductController.showProductById() called with productId: " + productId + System.currentTimeMillis());
         Product product = productService.getProductById(productId);
         if (product != null) {
             ProductDto productDto = mapToDto(product);
@@ -42,7 +39,7 @@ public class ProductController implements ProductApi {
 
     @Override
     public ResponseEntity<List<ProductDto>> listProducts() {
-        System.out.println("ProductController.listProducts() called");
+        System.out.println("ProductController.listProducts() called" + System.currentTimeMillis());
         List<ProductDto> productDtos = productService.getAllProducts().stream()
                 .map(ProductMapper::mapToDto)
                 .collect(Collectors.toList());

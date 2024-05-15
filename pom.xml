@@ -21,6 +21,7 @@
         <module>webpos-config-server</module>
         <module>webpos-discovery-server</module>
         <module>webpos-product-server</module>
+        <module>webpos-order-server</module>
     </modules>
 
     <properties>

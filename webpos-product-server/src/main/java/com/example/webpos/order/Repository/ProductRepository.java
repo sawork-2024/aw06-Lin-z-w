@@ -1,6 +1,6 @@
-package com.example.webpos.product.Repository;
+package com.example.webpos.order.Repository;
 
-import com.example.webpos.product.model.Product;
+import com.example.webpos.order.model.Product;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

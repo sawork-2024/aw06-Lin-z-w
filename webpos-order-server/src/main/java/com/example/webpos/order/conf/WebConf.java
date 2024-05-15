@@ -1,4 +1,4 @@
-package com.example.webpos.product.conf;
+package com.example.webpos.order.conf;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

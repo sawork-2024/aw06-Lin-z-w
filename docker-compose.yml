@@ -1,0 +1,31 @@
+services:
+  webpos-db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: kakaa
+      MYSQL_DATABASE: webpos
+
+  webpos-api-gateway:
+    build:
+      context: ./webpos-api-gateway
+      dockerfile: api-gateway.Dockerfile
+
+  webpos-config-server:
+    build:
+      context: ./webpos-config-server
+      dockerfile: config-server.Dockerfile
+
+  webpos-discovery-server:
+    build:
+      context: ./webpos-discovery-server
+      dockerfile: discovery-server.Dockerfile
+
+  webpos-order-server:
+    build:
+      context: ./webpos-order-server
+      dockerfile: order-server.Dockerfile
+
+  webpos-product-server:
+    build:
+      context: ./webpos-product-server
+      dockerfile: product-server.Dockerfile

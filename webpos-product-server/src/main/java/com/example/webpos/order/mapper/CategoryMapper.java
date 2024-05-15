@@ -1,6 +1,6 @@
-package com.example.webpos.product.mapper;
+package com.example.webpos.order.mapper;
 
-import com.example.webpos.product.rest.dto.CategoryDto;
+import com.example.webpos.order.rest.dto.CategoryDto;
 
 public class CategoryMapper {
     public static CategoryDto mapToDto(String category) {

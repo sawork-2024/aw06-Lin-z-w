@@ -1,4 +1,4 @@
-package com.example.webpos.product;
+package com.example.webpos.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
