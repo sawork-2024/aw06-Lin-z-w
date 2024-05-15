@@ -1,4 +1,4 @@
-# 使用 Maven 官方镜像作为基础镜像
+# 第一阶段：使用 Maven 官方镜像构建项目
 FROM maven:latest AS build
 
 # 设置工作目录
@@ -16,13 +16,14 @@ COPY ./src ./src
 # 构建项目
 RUN mvn package -DskipTests
 
-# 使用 OpenJDK 官方镜像作为基础镜像
-FROM openjdk:17-slim
+# 第二阶段：使用 OpenJDK 官方镜像作为基础镜像
+FROM openjdk:17-alpine
 
-COPY --from=ghcr.io/ufoscout/docker-compose-wait:latest /wait /wait
+# 设置工作目录
+WORKDIR /app
 
-# 将构建后的 JAR 文件复制到容器中
+# 复制构建后的 JAR 文件到容器中
 COPY --from=build /app/target/webpos-api-gateway-0.0.1-SNAPSHOT.jar /app/webpos-api-gateway-0.0.1-SNAPSHOT.jar
 
 # 设置容器启动命令
-CMD /wait && java -jar /app/webpos-api-gateway-0.0.1-SNAPSHOT.jar
+CMD /wait && java -jar webpos-api-gateway-0.0.1-SNAPSHOT.jar

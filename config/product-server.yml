@@ -1,0 +1,50 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+  # Database Initialization
+  sql:
+      init:
+        mode: always
+        platform: mysql
+        schema-locations: classpath:schema.sql
+  # Docker Redis Configuration
+#  cache:
+#    type: redis
+#    data:
+#      redis:
+#        cluster:
+#          nodes: redis1:7001,redis2:7002,redis3:7003
+  # Docker Database Configuration
+#  datasource:
+#    url: jdbc:mysql://mysql-server:3306/webpos
+#    username: root
+#    password: kakaa
+  # Local cache configuration
+#  cache:
+#    type: simple
+  # Local database configuration
+  datasource:
+    url: jdbc:mysql://localhost:3306/restful
+    username: root
+    password: 801815
+  main:
+    web-application-type: reactive
+
+server:
+  port: 0
+eureka:
+  instance:
+    # enable to register multiple app instances with a random server port
+    instance-id: ${spring.application.name}:${random.uuid}
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-server:8761/eureka/

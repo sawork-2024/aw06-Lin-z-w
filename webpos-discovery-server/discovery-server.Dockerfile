@@ -17,7 +17,7 @@ COPY ./src ./src
 RUN mvn package -DskipTests
 
 # 使用 OpenJDK 官方镜像作为基础镜像
-FROM openjdk:17-slim
+FROM openjdk:17-alpine
 
 COPY --from=ghcr.io/ufoscout/docker-compose-wait:latest /wait /wait
 

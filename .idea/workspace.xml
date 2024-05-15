@@ -5,37 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3542e61b-9555-4b6f-ae73-3130cd80f14d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lb2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/order-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/WebposOrderServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/rest/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/resources/api.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-order-server/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/conf/WebConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/product-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/product-server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/Repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/WebposProductServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/WebposProductServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/conf/WebConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/conf/WebConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/rest/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/rest/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-api-gateway/api-gateway.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-api-gateway/api-gateway.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-config-server/config-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/config-server.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-discovery-server/discovery-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-discovery-server/discovery-server.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-order-server/order-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/order-server.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-product-server/product-server.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/product-server.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +39,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Software\maven\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../Software/maven/apache-maven-3.9.6" />
         <option name="userSettingsFile" value="D:\Software\maven\apache-maven-3.9.6\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -103,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -114,18 +93,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w" />
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-discovery-server" />
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-config-server" />
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-api-gateway" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-order-server" />
-      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-product-server\src\main\resources" />
-      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-product-server\src\main\java\com\example\webpos\product" />
-      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-config-server\src\main\resources" />
-      <recent name="D:\Workspace\Java\awhw\aw05-Lin-z-w\redis\conf\7006" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w" />
+      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-api-gateway" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\img" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-config-server\src\main\java\com\example\webpos\config" />
       <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-product-server\src\main\resources" />
-      <recent name="D:\Workspace\Java\awhw\aw06-Lin-z-w\webpos-config-server\src\main\resources" />
-      <recent name="D:\Workspace\Java\awhw\aw05-Lin-z-w\img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.webpos.product.service" />
@@ -142,7 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebposOrderServerApplication">
+  <component name="RunManager" selected="Docker.webpos-api-gateway/api-gateway.Dockerfile">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JDDB" />
@@ -233,8 +212,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webpos-api-gateway/api-gateway.Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="webpos-api-gateway/api-gateway.Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Docker.webpos-api-gateway/api-gateway.Dockerfile" />
       <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       <item itemvalue="Spring Boot.WebposApiGatewayApplication" />
       <item itemvalue="Spring Boot.WebPosApplication" />
@@ -245,6 +237,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.webpos-api-gateway/api-gateway.Dockerfile" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -290,7 +283,8 @@
       <workItem from="1715738568912" duration="1054000" />
       <workItem from="1715739642570" duration="342000" />
       <workItem from="1715740055595" duration="537000" />
-      <workItem from="1715740768991" duration="3782000" />
+      <workItem from="1715740768991" duration="7569000" />
+      <workItem from="1715749223439" duration="8546000" />
     </task>
     <servers />
   </component>

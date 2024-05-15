@@ -5,27 +5,52 @@ services:
       MYSQL_ROOT_PASSWORD: kakaa
       MYSQL_DATABASE: webpos
 
-  webpos-api-gateway:
-    build:
-      context: ./webpos-api-gateway
-      dockerfile: api-gateway.Dockerfile
-
   webpos-config-server:
     build:
       context: ./webpos-config-server
       dockerfile: config-server.Dockerfile
+    image: webpos-config-server
+    ports:
+      - "8888:8888"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
 
   webpos-discovery-server:
     build:
       context: ./webpos-discovery-server
       dockerfile: discovery-server.Dockerfile
+    image: webpos-discovery-server
+    ports:
+      - "8761:8761"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      WAIT_HOSTS: webpos-config-server:8888
+
+  webpos-api-gateway:
+    build:
+      context: ./webpos-api-gateway
+      dockerfile: api-gateway.Dockerfile
+    image: webpos-api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      WAIT_HOSTS: webpos-config-server:8888, discovery-server:8761
 
   webpos-order-server:
     build:
       context: ./webpos-order-server
       dockerfile: order-server.Dockerfile
+    image: webpos-order-server
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      WAIT_HOSTS: webpos-config-server:8888, discovery-server:8761, webpos-db:3306
 
   webpos-product-server:
     build:
       context: ./webpos-product-server
       dockerfile: product-server.Dockerfile
+    image: webpos-product-server
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      WAIT_HOSTS: webpos-config-server:8888, discovery-server:8761, webpos-db:3306
