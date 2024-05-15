@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3542e61b-9555-4b6f-ae73-3130cd80f14d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/gatling1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gatling2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gatling3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/order-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/order-server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/product-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-config-server/src/main/resources/config/product-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/client/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-order-server/src/main/java/com/example/webpos/order/client/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/Repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/rest/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/rest/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/java/com/example/webpos/order/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpos-product-server/src/main/resources/api.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpos-product-server/src/main/resources/api.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +281,7 @@
       <workItem from="1715739642570" duration="342000" />
       <workItem from="1715740055595" duration="537000" />
       <workItem from="1715740768991" duration="7569000" />
-      <workItem from="1715749223439" duration="14353000" />
+      <workItem from="1715749223439" duration="15604000" />
     </task>
     <servers />
   </component>

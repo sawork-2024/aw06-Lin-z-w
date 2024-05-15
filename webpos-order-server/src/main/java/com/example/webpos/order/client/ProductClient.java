@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "product-service")
+@FeignClient(name = "product-server")
 public interface ProductClient {
 
-    @GetMapping("/products")
+    @GetMapping("/product")
     List<Product> getProductsByIds(@RequestParam("ids") List<String> ids);
 
-    @PutMapping("/products/{id}/quantity")
+    @PutMapping("/product/{id}/quantity")
     void updateProductQuantity(@PathVariable("id") String id, @RequestBody int quantity);
 }

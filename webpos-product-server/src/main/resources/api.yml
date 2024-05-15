@@ -71,6 +71,40 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
+  /product/{productId}/quantity:
+    put:
+      summary: Update the quantity of a specific product
+      operationId: updateProductQuantity
+      tags:
+        - product
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: The id of the product to update
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                quantity:
+                  type: integer
+                  description: The new quantity value
+                  minimum: 0
+                  example: 10
+      responses:
+        '200':
+          description: Product quantity updated successfully
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
 components:
   schemas:
     Product:

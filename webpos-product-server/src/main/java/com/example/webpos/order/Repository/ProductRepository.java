@@ -26,4 +26,7 @@ public interface ProductRepository {
 
     @Select("SELECT * FROM products WHERE id IN (#{productIds}) for update")
     List<Product> getProductByIds(List<String> productIds);
+
+    @Update("UPDATE products SET stock = #{stock} WHERE id = #{id}")
+    void save(Product product);
 }

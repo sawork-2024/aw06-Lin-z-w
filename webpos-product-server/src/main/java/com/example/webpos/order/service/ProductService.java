@@ -35,4 +35,10 @@ public class ProductService {
     public List<Product> searchProductsByName(String name) {
         return productRepository.findByNameContaining(name);
     }
+
+    public void updateProductQuantity(String productId, Integer quantity) {
+        Product product = productRepository.getProductById(productId);
+        product.setQuantity(quantity);
+        productRepository.save(product);
+    }
 }
